@@ -1,0 +1,7 @@
+pluginPrefix: '&7[No Communication] &r'
+
+deny-sign: '&cYou can not write on signs!'
+deny-book: '&cYou can not write on books!'
+deny-item-rename: '&cYou can not rename items!'
+deny-chat-message: '&cYou can not send messages in chat!'
+deny-chat-command: '&cYou can not use commands for communication!'

@@ -1,0 +1,24 @@
+#supported languages: en, br
+language: en
+
+# Deny sign edit
+# bypass permission: nocommunication.bypass.sign
+deny-sign: true
+
+# Deny book edit
+# bypass permission: nocommunication.bypass.book
+deny-book: true
+
+# Deny item rename
+# bypass permission: nocommunication.bypass.item-rename
+deny-item-rename: true
+
+# Deny chat messages
+# bypass permission: nocommunication.bypass.chat
+deny-chat-message: true
+
+# Deny chat commands
+# bypass permission: nocommunication.bypass.command.{command}
+# {command} is one of me, tell, msg, teammsg, tm, w
+# Example: nocommunication.bypass.command.tell
+deny-chat-command: true

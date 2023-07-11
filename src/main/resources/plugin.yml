@@ -1,0 +1,52 @@
+name: NoCommunication
+main: dev.pilati.nocommunication.NoCommunication
+authors: ['Pilati']
+version: 1.0
+api-version: 1.20
+softdepend:
+    - Vault
+permissions:
+    nocommunication.bypass.*:
+        description: Allow bypass all restrictions
+        default: op
+        children:
+            nocommunication.bypass.sign: true
+            nocommunication.bypass.book: true
+            nocommunication.bypass.item-rename: true
+            nocommunication.bypass.chat: true
+            nocommunication.bypass.command.me: true
+            nocommunication.bypass.command.tell: true
+            nocommunication.bypass.command.msg: true
+            nocommunication.bypass.command.teammsg: true
+            nocommunication.bypass.command.tm: true
+            nocommunication.bypass.command.w: true
+    nocommunication.bypass.sign:
+        description: Allow sign edit
+        default: op
+    nocommunication.bypass.book:
+        description: Allow book edit
+        default: op
+    nocommunication.bypass.item-rename:
+        description: Allow item rename
+        default: op
+    nocommunication.bypass.chat:
+        description: Allow chat messages
+        default: op
+    nocommunication.bypass.command.me:
+        description: Allow chat command me
+        default: op
+    nocommunication.bypass.command.tell:
+        description: Allow chat command tell
+        default: op
+    nocommunication.bypass.command.msg:
+        description: Allow chat command msg
+        default: op
+    nocommunication.bypass.command.teammsg:
+        description: Allow chat command teammsg
+        default: op
+    nocommunication.bypass.command.tm:
+        description: Allow chat command tm
+        default: op
+    nocommunication.bypass.command.w:
+        description: Allow chat command w
+        default: op
