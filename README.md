@@ -1,5 +1,7 @@
 # NoCommunication
 
+[View on SpigotMC](https://www.spigotmc.org/resources/nocommunication.111146/)
+
 ## English
 
 A Minecraft Spigot Plugin that disables in-game communications:
